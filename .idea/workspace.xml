@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="946d5801-db9c-4b52-b40c-0bb65f47bffa" name="Changes" comment="720 course variables additional fstring">
+    <list default="true" id="946d5801-db9c-4b52-b40c-0bb65f47bffa" name="Changes" comment="720 course variables test commit for new profile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,9 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2lXXbprk1dkz3geNnf0Q0G9KVkN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,7 +36,8 @@
     "Python.variables_basics.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Twice/Documents/6. PyProjects/basics_python/basics_python"
+    "last_opened_file_path": "C:/Users/Twice/Documents/6. PyProjects/basics_python/basics_python",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -92,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725413317093</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="720 course variables test commit for new profile">
+      <option name="closed" value="true" />
+      <created>1725413839109</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725413839109</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +120,7 @@
     <MESSAGE value="file moved to variable_basics folder" />
     <MESSAGE value="720 course variables init" />
     <MESSAGE value="720 course variables additional fstring" />
-    <option name="LAST_COMMIT_MESSAGE" value="720 course variables additional fstring" />
+    <MESSAGE value="720 course variables test commit for new profile" />
+    <option name="LAST_COMMIT_MESSAGE" value="720 course variables test commit for new profile" />
   </component>
 </project>
