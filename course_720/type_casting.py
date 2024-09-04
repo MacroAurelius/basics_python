@@ -16,12 +16,12 @@ print(type(viewers))
 print(type(subscribers))
 print(type(is_online))
 
-# Using these type cast unctions ---> str(), int(), float(), bool() --- we can convert to one data type to another
+# Using these type cast functions ---> str(), int(), float(), bool() --- we can convert to one data type to another
 
 # converting from a float to a integer
 live_time_int = int(live_time)
-print(live_time)
-print(live_time_int)
+print(f"Time Live: {live_time}hrs")
+print(f"Time Live (converted to whole number): {live_time_int}hrs")
 
 # converting from an integer to a float
 subscribers_float = float(subscribers)
