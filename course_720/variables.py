@@ -17,3 +17,8 @@ print(f"Hey, my name is {first_name}, but my friends call me {nickname}")
 school = "Massachusetts Institute of Technology"
 
 print(f"Hey everyone, my name is {first_name} and I attend {school}!")
+
+color = "black"
+sec_color = "yellow"
+
+print(f"I like to see the colors {color} and {sec_color} together!")

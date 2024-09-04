@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="946d5801-db9c-4b52-b40c-0bb65f47bffa" name="Changes" comment="720 course variables init">
+    <list default="true" id="946d5801-db9c-4b52-b40c-0bb65f47bffa" name="Changes" comment="720 course variables additional fstring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course_720/variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/course_720/variables.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725407235394</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="720 course variables additional fstring">
+      <option name="closed" value="true" />
+      <created>1725413317093</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725413317093</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +110,7 @@
     <MESSAGE value="simple variable naming_conventions init commit" />
     <MESSAGE value="file moved to variable_basics folder" />
     <MESSAGE value="720 course variables init" />
-    <option name="LAST_COMMIT_MESSAGE" value="720 course variables init" />
+    <MESSAGE value="720 course variables additional fstring" />
+    <option name="LAST_COMMIT_MESSAGE" value="720 course variables additional fstring" />
   </component>
 </project>
