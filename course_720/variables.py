@@ -13,3 +13,7 @@ nickname = "Martin Payne"
 print(f"Hey, my name is {first_name}, but my friends call me {nickname}")
 # the f-string is very useful
 
+# Another f-string example
+school = "Massachusetts Institute of Technology"
+
+print(f"Hey everyone, my name is {first_name} and I attend {school}!")
