@@ -31,3 +31,4 @@ pieces_of_gum = int(input("How many pieces of gum do you have left? "))
 pieces_of_gum -= 1
 
 print(f"Now you have {pieces_of_gum} pieces of gum left because I took one. :)")
+
