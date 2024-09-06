@@ -40,3 +40,26 @@ print(f"The maximum value between x, y, and z is: {max_result}")
 min_result = min(x, y, z)
 print(f"The minimum value btween x. y, and z is: {min_result}")
 
+#Constants and Functions from Math Class
+#***Be sure to import math (at the top of page)
+
+#Value of Pi:
+print(math.pi)
+
+#Constant e:
+print(math.e)
+
+#Sqaure Root: math.sqrt()
+a = 9
+sqrt_result = math.sqrt(a)
+print(f"The square root of a is: {sqrt_result}")
+
+#Ceiling (round up): math.ceil()
+b = 14.5
+print(f"The base number for b is: {b}")
+ceiling_result = math.ceil(b)
+print(f"Rounding b up is: {ceiling_result}")
+
+#Floor (round down): math.floor()
+floor_result = math.floor(b)
+print(f"Rounding down b is: {floor_result}")
