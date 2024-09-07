@@ -5,12 +5,12 @@ import math
 radius = float(input("Enter the radius of the circle: "))
 
 circumference = 2 * math.pi * radius
-trunc_circumference = round(circumference)
+trunc_circumference = round(circumference, 2)
 
 # We can also truncate the circumference
 # ---> print(f"The circumference is: {round(circumference)}")
 
-print(f"The circumference is: {circumference}")
-print(f"The circumference (truncated) is: {trunc_circumference}")
+print(f"The circumference is: {circumference}cm")
+print(f"The circumference (truncated) is: {trunc_circumference}cm")
 
 
