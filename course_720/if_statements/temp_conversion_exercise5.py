@@ -5,7 +5,8 @@ temp = float(input("Enter the temperature: "))
 
 # While creating if statements, you can use the keyword PASS to be a space filler until you set the condition
 if unit == "C":
-    pass
+    temp = round((9 * temp) / 5 + 32, 1)
+    print(f"The temperature in Fahrenheit is: {temp}F")
 elif unit == "F":
     pass
 else:
