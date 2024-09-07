@@ -1,4 +1,3 @@
-import math
 
 friends = 0
 
