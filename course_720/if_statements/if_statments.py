@@ -35,3 +35,17 @@ else:
 
 #TODO How can i make it where if the user doesn't type anything, then it will print the statement and prompt you to try again
 
+#The use of booleans with if statements
+for_sale = True
+
+if for_sale:
+    print("This item is for sale!")
+else:
+    print("This item is not for sale.")
+
+online = False
+
+if online:
+    print("This item is online!")
+else:
+    print("This item is out of stock.")
