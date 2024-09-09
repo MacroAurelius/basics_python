@@ -12,7 +12,7 @@ is_raining = False
 #If the temperature is too hot, too cold or it's raining, then the outdoor event will be cancelled
 #Check using an if statement
 
-if temp > 98 or temp < 45 or is_raining:
+if temp > 98 or temp < 32 or is_raining:
     print(f"The temp is: {temp}. The outdoor event has been postponed.")
 else:
     print(f"The temp is: {temp}. The outdoor event is still scheduled.")
@@ -20,10 +20,10 @@ else:
 #Outdoor Event (AND logical operators)
 is_sunny = True
 
-if temp >= 80 and is_sunny:
+if temp >= 88 and is_sunny:
     print("It is sunny!")
     print("Be sure to bring sunscreen!")
-elif temp <= 75 and is_sunny:
+elif temp <= 50 and is_sunny:
     print("It is quite chilly out today, bring a jacket as well.")
-elif 79 > temp > 46 and is_sunny:
+elif 87 > temp > 70 and is_sunny:
     print("It is warm outside")
