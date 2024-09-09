@@ -4,7 +4,7 @@
 #                                                  not = inverts the condition (not False, not True)
 
 #Outdoor Event (using logical operators)
-temp = 83
+temp = int(input("What is the temperature for the day?: "))
 is_raining = False
 #If the temperature is too hot, too cold or it's raining, then the outdoor event will be cancelled
 #Check using an if statement
