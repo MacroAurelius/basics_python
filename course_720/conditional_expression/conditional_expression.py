@@ -1,5 +1,6 @@
 # Conditional Expression = A one-line shortcut for the if-else statement (ternary operator)
 #                          Print or assign one of two values based on a condition
+#                          return X if the condition is true, else return Y
 #                          X if condition else Y
 
 num = 5
@@ -33,9 +34,12 @@ status = "Adult" if age >= 18 else "Child"
 print(status)
 
 #Check weather
-temperature = 86
+temperature = 42
+degree_symbol = "\u00b0"
 weather = "HOT" if temperature > 68 else "COLD"
-print(f"It is {temperature}, and it is {weather} outside")
+print(f"It is {temperature}{degree_symbol}, and it is {weather} outside")
+# print(f"It is {temperature2}{degree_symbol}, and it is {weather} outside")
+
 
 #Check the role of the user
 user_role = "admin"
