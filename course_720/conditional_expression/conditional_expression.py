@@ -25,3 +25,11 @@ print(f"{max_num} is the greater value!")
 #Check minimum number value
 min_num = a if a < b else b
 print(f"{min_num} is the lesser value!")
+
+#Check age for Adult or Child
+age = 25
+
+status = "Adult" if age >= 18 else "Child"
+print(status)
+
+
