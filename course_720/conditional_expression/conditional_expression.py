@@ -37,4 +37,8 @@ temperature = 86
 weather = "HOT" if temperature > 68 else "COLD"
 print(f"It is {temperature}, and it is {weather} outside")
 
+#Check the role of the user
+user_role = "admin"
+access_level = "Full Access" if user_role == "admin" else "Limited Access"
+print(f"This user role is {user_role} and has {access_level}")
 
