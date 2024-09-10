@@ -32,4 +32,9 @@ age = 25
 status = "Adult" if age >= 18 else "Child"
 print(status)
 
+#Check weather
+temperature = 86
+weather = "HOT" if temperature > 68 else "COLD"
+print(f"It is {temperature}, and it is {weather} outside")
+
 
