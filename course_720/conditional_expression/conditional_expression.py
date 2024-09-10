@@ -14,3 +14,14 @@ print(f"{num2} is EVEN" if num2 % 2 == 0 else f"{num2} is ODD")
 num3 = 6
 result = "EVEN" if num3 % 2 == 0 else "ODD"
 print(f"{num3} is {result}")
+
+#Check maximum number value
+a = 6
+b = 7
+
+max_num = a if a > b else b
+print(f"{max_num} is the greater value!")
+
+#Check minimum number value
+min_num = a if a < b else b
+print(f"{min_num} is the lesser value!")
