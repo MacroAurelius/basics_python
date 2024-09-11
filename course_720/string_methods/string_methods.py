@@ -16,3 +16,8 @@ last_result = name.rfind(" ")  # this will return the position of the LAST space
 print(last_result)
 # NOTE: If there is no occurrence in the string, then it will return negative one (-1)
 
+# Capitalization Method
+# To capitalize the firs letter in the string
+cap_name = name.capitalize()
+print(cap_name)  # this only capitalizes the first letter of the string
+
