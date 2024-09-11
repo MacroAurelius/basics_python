@@ -47,3 +47,8 @@ phone_number = input("Enter your phone #: ")
 # Count how many characters are in the String
 count_phone = phone_number.count("-")
 print(f"There are {count_phone} dashes in the phone number")
+
+# The REPLACE Method ---> .replace("old", "new")
+# Replace any occurrence of one character with another
+replace_phone = phone_number.replace("-", " ")
+print(replace_phone, "---> The dashes have been replaced with spaces")
