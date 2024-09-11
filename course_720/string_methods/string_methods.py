@@ -21,10 +21,16 @@ print(last_result)
 cap_name = name.capitalize()
 print(cap_name)  # this only capitalizes the first letter of the string
 
-# The UPPER Method
+# The UPPER Method ---> .upper()
 upper_name = name.upper()
 print(upper_name)
 
 # The LOWER Method ---> .lower()
 lower_name = name.lower()
 print(lower_name)
+
+# The ISDIGIT Method ---> .isdigit()
+# Will return true or false if ths String contains only digits
+digits_only = name.isdigit()
+print(digits_only)
+# NOTE: Only returns true if it's only digits in the string (THERE CAN BE NO SPACES EITHER)
