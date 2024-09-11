@@ -30,7 +30,13 @@ lower_name = name.lower()
 print(lower_name)
 
 # The ISDIGIT Method ---> .isdigit()
-# Will return true or false if ths String contains only digits
+# Will return a boolean true or false if ths String contains only digits
 digits_only = name.isdigit()
 print(digits_only)
-# NOTE: Only returns true if it's only digits in the string (THERE CAN BE NO SPACES EITHER)
+#NOTE: Only returns true if it's only digits in the string (THERE CAN BE NO SPACES EITHER)
+
+# The ISALPHA Method ---> .isalpha()
+# Will return a boolean true or false if ths String contains only alphabetical characters
+alpha_only = name.isalpha()
+print(alpha_only)
+#NOTE: Spaces in the String will result in false
