@@ -40,3 +40,10 @@ print(digits_only)
 alpha_only = name.isalpha()
 print(alpha_only)
 #NOTE: Spaces in the String will result in false
+
+phone_number = input("Enter your phone #: ")
+
+# The COUNT Method ---> .count()
+# Count how many characters are in the String
+count_phone = phone_number.count("-")
+print(f"There are {count_phone} dashes in the phone number")
