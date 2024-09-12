@@ -8,7 +8,7 @@
 # :^ = center align
 # :+ = use a plus sign to indicate positive value
 # := = place a sign to leftmost position
-# : = insert a space before positive numbers
+# :(space) = insert a space before positive numbers
 # :, = comma separator
 
 #PRACTICE
@@ -53,3 +53,15 @@ print(f"Price 3 is ${price3:+}")
 print(f"Price 1 is ${price1: }")
 print(f"Price 2 is ${price2: }")
 print(f"Price 3 is ${price3: }")
+
+# :, = comma separator
+print("\n:, = comma separator")
+price6 = 6000.123456
+price7 = 7432.432
+price8 = 856334562.34
+
+print(f"Price 1 is ${price6:,}")
+print(f"Price 2 is ${price7:,}")
+print(f"Price 3 is ${price8:,}")
+
+
