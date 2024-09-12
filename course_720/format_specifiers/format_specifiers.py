@@ -15,9 +15,16 @@
 price1 = 3.14159
 price2 = -987.65
 price3 = 12.34
+price4 = 34.654345
+price5 = 55.44543543432
 
 # .(number)f = round to that many decimal places (fixed point)
-print(f"Price 1 is {price1:.2f}") #After the : is called a flag. It will format the value a specific way, depending on what you place there
-print(f"Price 2 is {price2:.2f}") #Decimal point precision with 2 decimal places
-print(f"Price 3 is {price3:.1f}") #For 1 decimal point
+print(f"Price 1 is ${price1:.2f}")  #After the : is called a flag. It will format the value a specific way, depending on what you place there
+print(f"Price 2 is ${price2:.2f}")  #Decimal point precision with 2 decimal places
+print(f"Price 3 is ${price3:.1f}")  #For 1 decimal places
+print(f"Price 4 is ${price4:.3f}")   #For 3 decimal places
+
+# :(number) = allocate that many spaces
+print(f"Price 5 is ${price5:30}")
+print(f"Price 5 is ${price5:030}")
 
