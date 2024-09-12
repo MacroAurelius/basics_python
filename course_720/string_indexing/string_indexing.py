@@ -23,5 +23,9 @@ print(f"The next 4 digits of the card are: {credit_number[5:9]}")
 print(f"The remaining digits are: {credit_number[9:].replace("-", " ")}")
 # Note: I removed the dashes
 
+# You can also use negative numbers as the index for the string to index backwards
 # If you need the last character of a string use -1
 print(f"The last character in the card number is: {credit_number[-1]}")
+
+print(f"The second to last character in the card number is: {credit_number[-2]}")
+print(f"The last 2 digits character in the card number is: {credit_number[-2:]}")
