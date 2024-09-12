@@ -4,7 +4,7 @@
 credit_number = "1234-5678-9012-3456"
 
 # Note: that the index count starts at 0 (example below)
-print(f"The first character of the credit card number is: {credit_number[0]}")
+print(f"Index 0 is the first character of the string. Which is: {credit_number[0]}")
 print(f"The second: {credit_number[1]}")
 print(f"The third: {credit_number[2]}")
 print(f"At the ninth index of the card number: {credit_number[9]}")
@@ -43,3 +43,4 @@ print(f"All digits visible: {credit_number}")
 
 # Example: Reverse the characters in card number
 print(f"The card number backwards is: {credit_number[::-1]}")
+
