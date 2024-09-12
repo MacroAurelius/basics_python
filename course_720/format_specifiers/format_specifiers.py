@@ -64,4 +64,7 @@ print(f"Price 1 is ${price6:,}")
 print(f"Price 2 is ${price7:,}")
 print(f"Price 3 is ${price8:,}")
 
-
+print("\nYou can also mix & match flags (Prices 6 - 8)")
+print(f"Price 1 is ${price6:50,.3f}")
+print(f"Price 2 is ${price7:50,.2f}")
+print(f"Price 3 is ${price8:050,}")
