@@ -38,9 +38,18 @@ print(f"Price 2 is ${price2:<10}")
 print(":> = right justify")
 print(f"Price 1 is ${price1:>10}")
 print(f"Price 2 is ${price2:>10}")
-print(f"Price 3 is ${price1:>10}")
+print(f"Price 3 is ${price3:>10}")
 # :^ = center align
 print(":^ = center align")
 print(f"Price 1 is ${price1:^30}")
 print(f"Price 2 is ${price2:^10}")
 
+# :+ = use a plus sign to indicate positive value
+print("\n:+ = use a plus sign to indicate positive value")
+print(f"Price 1 is ${price1:+}")
+print(f"Price 2 is ${price2:+}")  #If it's a negative number, the positive will not show (negative symbol will override)
+print(f"Price 3 is ${price3:+}")
+#Or you can use a space instead
+print(f"Price 1 is ${price1: }")
+print(f"Price 2 is ${price2: }")
+print(f"Price 3 is ${price3: }")
