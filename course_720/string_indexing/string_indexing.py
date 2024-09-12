@@ -29,3 +29,7 @@ print(f"The last character in the card number is: {credit_number[-1]}")
 
 print(f"The second to last character in the card number is: {credit_number[-2]}")
 print(f"The last 2 digits character in the card number is: {credit_number[-2:]}")
+
+# Using the step field we can access the characters in a string by a given step (you can count y 2's, 3's etc.)
+# NOTE: While using the step field you have to write it out as such ---> [::] (USE TWO COLONS for start and end fields
+print(f"Every 2nd number of the card number is: {credit_number[::2]}") # This will print every 2nd character of the string
