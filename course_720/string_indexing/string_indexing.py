@@ -22,3 +22,6 @@ print(f"The next 4 digits of the card are: {credit_number[5:9]}")
 # To print the rest of the card number use the end indexing field ---> variable[start:] (just add the start point and the colon
 print(f"The remaining digits are: {credit_number[9:].replace("-", " ")}")
 # Note: I removed the dashes
+
+# If you need the last character of a string use -1
+print(f"The last character in the card number is: {credit_number[-1]}")
