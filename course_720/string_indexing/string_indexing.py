@@ -15,3 +15,10 @@ print(f"At the ninth index of the card number: {credit_number[9]}")
 # Print out the first 4 digits of the string/credit card number
 print(f"Here are the first 4 digits of the card number: {credit_number[0:4]}")
 # You can also type it as ---> credit_number[:4] <--- even though there isn't a starting index, it will assume to start from the beginning of the string
+
+# Print out the next 4 digits
+print(f"The next 4 digits of the card are: {credit_number[5:9]}")
+
+# To print the rest of the card number use the end indexing field ---> variable[start:] (just add the start point and the colon
+print(f"The remaining digits are: {credit_number[9:].replace("-", " ")}")
+# Note: I removed the dashes
