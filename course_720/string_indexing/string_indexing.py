@@ -32,4 +32,14 @@ print(f"The last 2 digits character in the card number is: {credit_number[-2:]}"
 
 # Using the step field we can access the characters in a string by a given step (you can count y 2's, 3's etc.)
 # NOTE: While using the step field you have to write it out as such ---> [::] (USE TWO COLONS for start and end fields
-print(f"Every 2nd number of the card number is: {credit_number[::2]}") # This will print every 2nd character of the string
+print(f"Every 2nd character of the card number is: {credit_number[::2]}") # This will print every 2nd character of the string
+print(f"Every 3rd character of the card number is: {credit_number[::3]}")
+
+# Example: Get the last 4 digits of the card number
+last_digits = credit_number[-4:]
+print(f"Last 4 digits visible: XXXX-XXXX-XXXX-{last_digits}")
+
+print(f"All digits visible: {credit_number}")
+
+# Example: Reverse the characters in card number
+print(f"The card number backwards is: {credit_number[::-1]}")
