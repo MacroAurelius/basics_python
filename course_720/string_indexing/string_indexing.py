@@ -3,8 +3,15 @@
 
 credit_number = "1234-5678-9012-3456"
 
-# Note that the index count starts at 0 (example below)
+# Note: that the index count starts at 0 (example below)
 print(f"The first character of the credit card number is: {credit_number[0]}")
 print(f"The second: {credit_number[1]}")
 print(f"The third: {credit_number[2]}")
 print(f"At the ninth index of the card number: {credit_number[9]}")
+
+# With the Indexing Operator there are up to 3 fields that we can fill in [start:end:step]
+# If there is only one index listed without any colons : , then it will assume youre filling in the start position
+
+# Print out the first 4 digits of the string/credit card number
+print(f"Here are the first 4 digits of the card number: {credit_number[0:4]}")
+# You can also type it as ---> credit_number[:4] <--- even though there isn't a starting index, it will assume to start from the beginning of the string
